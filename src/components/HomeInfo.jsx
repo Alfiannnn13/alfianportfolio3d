@@ -6,11 +6,11 @@ const HomeInfo = ({ currentStage }) => {
   if (currentStage === 1)
     return (
       <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
-        Hi, I'm
+        Hi, Saya
         <span className='font-semibold mx-2 text-white'>Alfian</span>
-        ☕
+        
         <br />
-        A Software Engineer from Bekasi
+        Junior Programmer ☕
       </h1>
     );
 
@@ -18,11 +18,11 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          Worked with many companies <br /> and picked up many skills along the way
+        Pengalaman dan keterampilan yang saya dapatkan <br />  melalui kursus sertifikasi.
         </p>
 
         <Link to='/about' className='neo-brutalism-white neo-btn'>
-          Learn more
+          Selengkapnya
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
       </div>
@@ -33,11 +33,11 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium text-center sm:text-xl'>
-          Led multiple projects to success over the years. <br /> Curious about the impact?
+        Berhasil menyelesaikan berbagai proyek.  <br /> Ingin melihat hasilnya?
         </p>
 
         <Link to='/projects' className='neo-brutalism-white neo-btn'>
-          Visit my portfolio
+          Lihat portfolio saya
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
       </div>
@@ -48,11 +48,11 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
       <p className='font-medium sm:text-xl text-center'>
-        Need a project done or looking for a dev? <br/> I'm just a few keystrokes away
+      Butuh proyek yang diselesaikan atau mencari pengembang? <br/> 
       </p>
 
       <Link to='/contact' className='neo-brutalism-white neo-btn'>
-        Let's talk
+      Hubungi Saya 🤙
         <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
       </Link>
     </div>

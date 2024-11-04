@@ -8,17 +8,17 @@ const Projects = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
-        My{" "}
         <span className='blue-gradient_text drop-shadow font-semibold'>
           Projects
         </span>
+        {" "}saya
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-      Kalem belom kelar ini bikinnya
+      Di sini, Anda dapat menjelajahi berbagai hasil proyek yang telah saya kerjakan. Setiap proyek mencerminkan dedikasi dan kreativitas saya dalam menciptakan solusi yang inovatif. Mari lihat bagaimana saya dapat membantu mewujudkan ide-ide Anda!
       </p>
 
-      {/* <div className='flex flex-wrap my-20 gap-16'>
+      <div className='flex flex-wrap my-20 gap-16'>
         {projects.map((project) => (
           <div className='lg:w-[400px] w-full' key={project.name}>
             <div className='block-container w-12 h-12'>
@@ -57,7 +57,7 @@ const Projects = () => {
         ))}
       </div>
 
-      <hr className='border-slate-200' /> */}
+      <hr className='border-slate-200' />
 
       <CTA />
     </section>

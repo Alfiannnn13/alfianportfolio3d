@@ -22,13 +22,12 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Cikarang, specializing in technical
-          education through hands-on learning and building applications.
+        Junior Programmer di Cikarang yang mengutamakan pembelajaran teknis praktis serta memiliki pengalaman dalam membangun aplikasi yang fungsional dan efisien.
         </p>
       </div>
 
       <div className='py-10 flex flex-col'>
-        <h3 className='subhead-text'>My Skills</h3>
+        <h3 className='subhead-text'>Skills</h3>
 
         <div className='mt-16 flex flex-wrap gap-12'>
           {skills.map((skill) => (
@@ -47,11 +46,10 @@ const About = () => {
       </div>
 
       <div className='py-16'>
-        <h3 className='subhead-text'>Work Experience.</h3>
+        <h3 className='subhead-text'>Course Sertifikasi</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+          Saya telah mengikuti berbagai kursus untuk memperkuat keterampilan teknis saya dan tetap up-to-date dengan teknologi terbaru. Berikut adalah beberapa kursus yang telah saya selesaikan:
           </p>
         </div>
 
